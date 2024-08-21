@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+}
+
+header{
+    border: solid 2px darkorange;
+    font-size: 52px;
+    padding: 20px;
+    color:darkorange;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0,8;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
